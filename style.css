@@ -57,15 +57,13 @@ body.modal-open {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.modal {
-	z-index: 1; /* Set a higher z-index value */
-}
 
 .modal-open {
-	z-index: 0; /* Ensure that the background is below the modal */
+	z-index: 0;
 }
 
 .modal {
+	z-index: 1; 
 	display: none;
 	position: fixed;
 	top: 0;
